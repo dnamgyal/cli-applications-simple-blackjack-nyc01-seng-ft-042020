@@ -39,14 +39,18 @@ def initial_round
   # code #initial_round here
 end
 
-def hit?
+def hit?(card_total)
   # code hit? here
   prompt_user
   input = get_user_input
+
+  while input != "h" and input != s
+    invalid_command
 end
 
 def invalid_command
   # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
