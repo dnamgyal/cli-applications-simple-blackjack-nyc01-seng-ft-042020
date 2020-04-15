@@ -35,6 +35,7 @@ def initial_round
 
   total = deal_card + deal_card
   display_card_total(total)
+  total
   # code #initial_round here
 end
 
